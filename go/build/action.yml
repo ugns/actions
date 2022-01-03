@@ -1,6 +1,6 @@
 name: 'Build'
 description: 'Build Go Binaries'
-author: 'Cloud Posse <hello@cloudposse.com>'
+author: 'UnderGrid Ops <hello@undergrid.com>'
 runs:
   using: 'docker'
   image: 'Dockerfile'

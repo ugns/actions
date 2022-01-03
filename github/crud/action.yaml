@@ -1,6 +1,6 @@
 name: 'crud'
 description: 'Synchronize Github workflows to a repository'
-author: 'Cloud Posse <hello@cloudposse.com>'
+author: 'UnderGrid Ops <hello@undergrid.com>'
 inputs:
   repo:
     required: true

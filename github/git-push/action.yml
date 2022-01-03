@@ -1,6 +1,6 @@
 name: 'Git Push'
 description: 'Push Changes to Origin'
-author: 'Cloud Posse <hello@cloudposse.com>'
+author: 'UnderGrid Ops <hello@undergrid.com>'
 runs:
   using: 'docker'
   image: 'Dockerfile'

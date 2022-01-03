@@ -1,6 +1,6 @@
 FROM alpine:3.10
 
-LABEL maintainer="Cloud Posse <hello@cloudposse.com>"
+LABEL maintainer="UnderGrid Ops <hello@undergrid.com>"
 
 LABEL "com.github.actions.name"="Git Push"
 LABEL "com.github.actions.description"="Push Changes to Origin"

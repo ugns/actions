@@ -1,6 +1,6 @@
 FROM golang:1.15-buster
 
-LABEL maintainer="Cloud Posse <hello@cloudposse.com>"
+LABEL maintainer="UnderGrid Ops <hello@undergrid.com>"
 
 LABEL "com.github.actions.name"="Build"
 LABEL "com.github.actions.description"="Build Go Binaries"

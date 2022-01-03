@@ -24,14 +24,14 @@ jobs:
   pipeline-creator:
     runs-on: ubuntu-latest
     steps:
-      - uses: cloudposse/actions/codefresh/pipeline-creator@0.25.0
+      - uses: ugns/actions/codefresh/pipeline-creator@0.25.0
         with:
           # GitHub owner and repository name of the application repository
           repo: "${{ github.repository }}"
           # Codefresh project name to host the pipelines
           cf_project: "${{ github.event.repository.name }}"
           # URL of the repository that contains Codefresh pipelines and pipeline specs
-          cf_repo_url: "https://github.com/cloudposse/codefresh.git"
+          cf_repo_url: "https://github.com/ugns/codefresh.git"
           # Version of the repository that contains Codefresh pipelines and pipeline specs
           cf_repo_version: "0.1.0"
           # Pipeline spec type (microservice, spa, serverless)

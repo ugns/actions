@@ -1,6 +1,6 @@
 name: 'Run Codefresh pipeline'
 description: 'GitHub action that runs Codefresh pipeline'
-author: 'Cloud Posse <hello@cloudposse.com>'
+author: 'UnderGrid Ops <hello@undergrid.com>'
 runs:
   using: 'docker'
   image: 'Dockerfile'

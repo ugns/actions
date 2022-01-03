@@ -1,6 +1,6 @@
 FROM alpine:3.10
 
-LABEL maintainer="Cloud Posse <hello@cloudposse.com>"
+LABEL maintainer="UnderGrid Ops <hello@undergrid.com>"
 
 LABEL "com.github.actions.name"="Release Assets"
 LABEL "com.github.actions.description"="Attach assets to GitHub Release"

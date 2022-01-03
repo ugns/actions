@@ -1,6 +1,6 @@
 FROM codefresh/cli:0.74.9
 
-LABEL maintainer="Cloud Posse <hello@cloudposse.com>"
+LABEL maintainer="UnderGrid Ops <hello@undergrid.com>"
 
 LABEL "com.github.actions.name"="Run Codefresh pipeline"
 LABEL "com.github.actions.description"="GitHub action that runs Codefresh pipeline"

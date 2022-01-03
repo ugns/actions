@@ -1,6 +1,6 @@
 name: 'Codefresh pipelines creator'
 description: 'GitHub Action that creates Codefresh pipelines from templated spec files'
-author: 'Cloud Posse <hello@cloudposse.com>'
+author: 'UnderGrid Ops <hello@undergrid.com>'
 runs:
   using: 'docker'
   image: 'Dockerfile'

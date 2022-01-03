@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-LABEL maintainer="Cloud Posse <hello@cloudposse.com>"
+LABEL maintainer="UnderGrid Ops <hello@undergrid.com>"
 
 LABEL "com.github.actions.name"="CRUD"
 LABEL "com.github.actions.description"="Synchronize Github workflows to a repository"
