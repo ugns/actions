@@ -6,7 +6,7 @@ on:
 jobs:
   terraform-fmt:
     runs-on: ubuntu-latest
-    container: cloudposse/build-harness:slim-latest
+    container: ugns/build-harness:slim-latest
     steps:
       # Checkout the pull request branch
       - uses: actions/checkout@v2
@@ -40,7 +40,7 @@ jobs:
 
       # Add reaction to the original comment
       - name: Add reaction to the original comment
-        uses: cloudposse/actions/github/create-or-update-comment@0.28.0
+        uses: ugns/actions/github/create-or-update-comment@0.28.0
         with:
           token: ${{ secrets.PUBLIC_REPO_ACCESS_TOKEN }}
           repository: ${{ github.event.client_payload.github.payload.repository.full_name }}

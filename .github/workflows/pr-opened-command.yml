@@ -50,11 +50,7 @@ jobs:
               message = `
               Welcome @${creator}
 
-              Thank you for submitting this PR! If you haven't already [joined our slack community](https://slack.sweetops.com), then we invite you to do so.
-
-              We receive an overwhelming number of contributions. By joining our slack, we'll be able to review your PR faster.
-
-              [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
+              Thank you for submitting this PR! 
               `;
             }
             else {
@@ -77,7 +73,7 @@ jobs:
             // Assign reviewers
             console.log('Executing Assign reviewers script');
 
-            const all_reviewers = ['osterman', 'aknysh', 'goruha'];
+            const all_reviewers = ['jbouse'];
 
             // Exclude the PR author from the reviewer list
             const reviewers = all_reviewers.filter((val) => val !== creator);
