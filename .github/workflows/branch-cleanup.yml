@@ -2,13 +2,13 @@ name: branch-cleanup
 on:
   pull_request:
     branches:
-      - master
+      - main
 jobs:
   cleanup-branch:
     name: Auto delete branch on merge
     runs-on: ubuntu-latest
     steps:
-    - uses: ugns/actions/github/branch-cleanup@0.28.0
+    - uses: ugns/actions/github/branch-cleanup@1.0.0
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         NO_BRANCH_DELETED_EXIT_CODE: 0
